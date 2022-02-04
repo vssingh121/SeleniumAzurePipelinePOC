@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestNGParallelTestingDemo {	
 	WebDriver driver = null;
 	
-	public void initDriver() {
+	public void initDriver() {//
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 	}
